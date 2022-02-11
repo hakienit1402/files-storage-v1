@@ -1,0 +1,116 @@
+.editable-row .ant-form-item-explain {
+    position: absolute;
+    top: 100%;
+    font-size: 13px;
+  }
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  th.ant-table-cell{
+    font-family:Roboto2;
+  }
+  .img-type{
+    width: 25px;
+    height: 25px;
+  }
+  .ant-table-row{
+    cursor: pointer;
+  }
+
+  .btn-up-new{
+    background: none;
+    background-color: white !important;
+    border-radius: 24px !important;
+    
+    
+  }
+  button.MuiButton-root{
+    color: rgb(109, 109, 109);
+    text-transform: none;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  th.type-custom{
+    width: 150px;
+  }
+  th.name-custom{
+    width: 400px;
+  }
+
+  .MuiPaper-elevation1{
+    box-shadow: 0 1px 6px rgb(60 64 67 / 30%) !important;
+
+  }
+  .MuiPaper-rounded{
+    border-radius: 8px !important;
+  }
+  #OK{
+    background: linear-gradient(
+      90deg
+      ,#34a853 4%,#4285f4 0%) top/100% 34% no-repeat,linear-gradient(
+      90deg
+      ,#fbbc04 50%,#4285f4 0%) top/100% 82% no-repeat,linear-gradient(
+      70deg
+      ,#fbbc04 10%,#ea4335 0%) top/100% 100% !important;
+          padding: 5px !important;
+  }
+  .sdlfj{
+    padding: 0 15px;
+  }
+  .MuiListItemIcon-root{
+    min-width: 35px !important;
+  }
+  .MuiContainer-maxWidthMd{
+    max-width: 900px !important;
+  }
+
+  .icon-shared{
+    /* display: block; */
+    position: absolute;
+    color: #649294d9 !important;
+    font-size: 18px;
+    left: -17px;
+    top: -10px;
+    transition: 0.3s ease-in;
+  }
+  .icon-shared:hover{
+    color: #29e7cec2 !important;
+  }
+  .list-shared .ant-list-item{
+    padding: 5px 0 !important;
+  }
+  .list-shared .delete-shared{
+    cursor: pointer;
+  }
+  .list-shared .delete-shared:hover {
+    color: #bd2214;
+    transition: 0.2s ease-in;
+  }
+  /* title-shared */
+  .search-ngoc input{
+    border-radius: 0;
+    border: 1px solid #a7a7a7c4;
+  }
+  .search-ngoc input:hover,.search-ngoc input:focus{
+    border: 1px solid #4d4d4dc4 !important;
+  }
+  .search-ngoc button{
+    background-color: #535353;
+    border: none;
+    width: 80px;
+  }
+  .search-ngoc button:hover{
+    background-color: #252525;
+  }
+  .search-ngoc .anticon-search{
+    font-size: 20px;
+  }
+.ant-collapse-header{
+  padding-left: 0 !important;
+  width: fit-content !important;
+}
+.ant-collapse-content-box{
+  padding: 0 !important;
+}

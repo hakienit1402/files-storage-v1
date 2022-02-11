@@ -1,0 +1,12 @@
+.avatar-group-notifi {
+	margin-right: 25px;
+	margin-top: 15px;
+}
+.avatar-group-button-user {
+	justify-content: center;
+}
+.user-dropdown-button-img-avatar {
+	width: 40px;
+	height: 40px;
+	cursor: 'pointer';
+}

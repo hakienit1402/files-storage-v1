@@ -1,0 +1,28 @@
+ .logo {
+    float: left;
+    width: 150px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    /* background: rgba(255, 255, 255, 0.2); */
+    background: #fff;
+  }
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+
+.title {
+    margin-left: 65px;
+    margin-top: 40px;
+}
+ .title h1{
+     font-size: 50px;
+     color: #0078d4;
+ }
+ .title h2{
+    font-size: 35px;
+}
+.btn-auth{
+   width: 200px;
+   margin: 20px 10px;
+}
+

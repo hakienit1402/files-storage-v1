@@ -1,0 +1,63 @@
+body {
+  background: #fff !important;
+  margin: 0;
+  font-family: 'Segoe UI', 'Poppins', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+::-webkit-scrollbar {
+  height: 16px;
+  overflow: visible;
+  width: 9px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  background-clip: padding-box;
+  border: solid transparent;
+  border-width: 1px 1px 1px 6px;
+  min-height: 28px;
+  padding: 100px 0 0;
+  box-shadow: inset 1px 1px 0 rgb(0 0 0 / 10%), inset 0 -1px 0 rgb(0 0 0 / 7%);
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+::-webkit-scrollbar-button {
+  height: 0;
+  width: 0;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url(./fonts/Roboto/Roboto-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto2';
+  src: local('Roboto'), url(./fonts/Roboto/Roboto-Medium.ttf) format('truetype');
+}
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
+hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.model-custom .ant-modal-content{
+  width: fit-content !important;
+}
+.rhap_container {
+  box-shadow: none !important;
+}
+#img-audio{
+  /* overflow: hidden; */
+  animation:spin 4s linear infinite;
+}
+@keyframes spin { 100% { transform:rotate(360deg); } }

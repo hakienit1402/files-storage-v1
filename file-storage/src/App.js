@@ -7,7 +7,7 @@ const Upgrade = lazy(() => import('./pages/account/Upgrade'));
 const SignIn = lazy(() => import('./pages/Auth0/SignIn'));
 const SignUp = lazy(() => import('./pages/Auth0/SignUp'));
 const MainPage = lazy(() => import('./pages/Main/MainPage'));
-
+//test commit
 const App = () => {
 	const data = useSelector((state) => state.auth);
 	const { users } = data;
